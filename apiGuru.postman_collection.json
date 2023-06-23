@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "06aebabb-6594-4832-9d3a-5c0091219a99",
+		"name": "apiGuru",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27882866"
+	},
+	"item": [
+		{
+			"name": "https://api.apis.guru/v2/providers.json",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.apis.guru/v2/specs/{provider}/{service}/{api}.json",
+					"protocol": "https",
+					"host": [
+						"api",
+						"apis",
+						"guru"
+					],
+					"path": [
+						"v2",
+						"specs",
+						"{provider}",
+						"{service}",
+						"{api}.json"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://api.apis.guru/v2/providers.json",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.apis.guru/v2/list.json",
+					"protocol": "https",
+					"host": [
+						"api",
+						"apis",
+						"guru"
+					],
+					"path": [
+						"v2",
+						"list.json"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
